@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="jquery-ui\jquery-ui.css">
+  <link rel="stylesheet" href="jquery-ui\jquery-ui.structure.css">
+  <link rel="stylesheet" href="jquery-ui\jquery-ui.theme.css">
+
+
+</head>
+<body>
+  <div id="mydiv">
+    <img id="resizable" src="sundar.jpg" alt="">
+
+  </div>
+
+
+</body>
+<script src="jquery-ui\external\jquery\jquery.js" charset="utf-8"></script>
+<script src="jquery-ui\jquery-ui.js" charset="utf-8"></script>
+<script>
+
+$( function() {
+  $( "#resizable" ).resizable({
+    aspectRatio:true,
+  });
+} );
+
+</script>
+</html>
